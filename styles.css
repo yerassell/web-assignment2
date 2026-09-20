@@ -1,0 +1,103 @@
+body{
+    background-image: url(https://i.pinimg.com/1200x/4c/0c/f9/4c0cf9f68e0848ad5076b6383f4ffc6b.jpg);
+    text-align: center;
+    color: #334155;
+    font-family: monospace;
+    font-size: 14px;
+}
+.wrapper{
+    background-color: rgba(224, 222, 222, 0.9);
+    margin: 50px 250px;
+    padding: 0 25px 0;
+    border: 5px solid rgb(195, 203, 203);
+    border-radius:10px;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:15px;
+    list-style-type: none;
+}
+.nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+.content{
+    padding: 25px 25px 70px;
+    background-color: rgba(240, 248, 255, 0.9);   
+    margin: 0 -25px;
+    border-top: 5px solid rgb(195, 203, 203);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards{
+    background-color: rgba(224, 222, 222, 0.9);    
+    padding: 25px;
+    width: 200px;
+    height: 330px;
+    border: 3px solid rgb(195, 203, 203);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(195, 194, 194);
+}
+.container img{
+    width: 150px;
+    height: 130px;
+    border: 2px solid rgb(195, 203, 203);
+    border-radius: 12px;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: serif;
+}
+h3{
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+}
+.textt{
+    height:90px;
+}
+.btn{
+    border: 2px solid rgb(195, 203, 203);
+    border-radius: 5px;
+    background-color: #798493;
+    padding:12px 20px;
+    width: 80px;
+    height: 30px;
+    color: rgb(251, 249, 249);
+}
+a{
+    color: #334155;
+    text-decoration: none;
+}
+a:hover{
+    color:brown;
+}
+.cards a:hover{
+    color:pink;
+}
+.cards:hover{
+    transform: translateY(-8px);
+    transition: transform 0.3s ease;
+}
