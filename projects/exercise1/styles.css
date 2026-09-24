@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(245, 248, 251);
+}
+.wrapper{
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    background-color: rgb(206, 215, 215);
+    margin: 50px 200px;
+    padding: 0 25px 25px;
+    border: 3px solid rgb(207, 207, 221);
+    border-radius: 10px;
+}
+.icons{
+    height: 80px;
+    width: 80px;
+}
+.navbar{
+    text-align: center;
+    padding: 5px 0;
+}
+.nav{
+    display:inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    padding: 10px 10px;
+    margin: 0 -25px 20px;
+    background-color: inherit;
+}
+.header h1{
+    margin-bottom: -15px;
+}
+.header p{
+    font-size: 20px;
+
+}
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+img{
+    width: 90%;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 2px 2px rgb(181, 180, 180);
+}
+h2{
+    font-size: 40px;
+    margin-bottom: -10px;
+    color: black;
+}
+p{
+    padding: 0 25px;
+    color: black;
+}
+
+.lists{
+    box-sizing: border-box;
+    list-style-position: inside;
+}
+.lists li{
+    font-size: 18px;
+}
+.ordered{
+    float:left;
+    width: 55%;
+}
+.unordered{
+    float:right;
+    width: 45%;
+}
+ul{
+    list-style-type: circle;
+    word-spacing: normal;
+}
+a{
+    color:rgb(107, 104, 104);
+}
+a:hover{
+    color: brown;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: inherit;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #d2d4d6;
+  color: black;
+}

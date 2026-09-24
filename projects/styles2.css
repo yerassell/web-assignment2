@@ -1,0 +1,98 @@
+body{
+    background-image:url(https://i.pinimg.com/736x/63/0f/a7/630fa72d24c6a7951c3775ea499c4994.jpg);
+    font-size: 19px;
+    font-family: Garamond;
+    color: #334155;
+}
+.wrapper{
+    background-color: rgba(238, 242, 246, 0.9);
+    margin: 50px 300px;
+    padding: 0;
+    border: 5px dashed rgb(173, 182, 190);
+    box-sizing: border-box;
+
+}
+.header{
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 2px dashed rgb(173, 182, 190);
+    background-color: rgba(192, 201, 209, 0.9);   
+}
+.buttons{
+    height: 80px;
+    width: 80px;
+}
+.navbar{
+    text-align: center;
+    padding: 5px 0;
+}
+.nav{
+    display:inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+.nav img{
+    /*found style="mix-blend-mode: multiply;" from internet to clear white background of pic*/
+    mix-blend-mode: multiply;
+}
+.content{
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 2px dashed rgb(173, 182, 190);
+    border-bottom: 2px dashed rgb(173, 182, 190);
+    overflow: hidden;
+}
+.sidebar{
+    float: left;
+    width: 23%;
+    padding: 15px;
+    font-size: 17px;
+    border-right: 2px dashed rgb(173, 182, 190);
+}
+.main{
+    float: right;
+    width: 70%;
+    padding: 15px;
+}
+.float{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.pic-text::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+#pic-movie{
+    width:30%;
+    border: 0 solid rgb(173, 182, 190);
+    border-radius: 10px;
+    max-width: 500px;
+}
+.referr{
+    border-bottom: 2px dashed rgb(173, 182, 190);
+    padding: 5px 25px;
+}
+.footer{
+    text-align: center;
+    font-size: small;
+    height: 40px;
+    padding: 5px 0;
+    background-color: rgba(192, 201, 209, 0.9);
+}
+h1{
+    font-size: 50px;
+}
+h2, h3{
+    margin-bottom: -5px;
+}
+a{
+    color: #334155;
+}
+a:hover{
+    color: brown;
+}
+
